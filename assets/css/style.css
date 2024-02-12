@@ -32,17 +32,6 @@
   src: url("../fonts/Montserrat-ExtraBold.eot");
   src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"); }
 
-/* Placeholder Example
-.class_name {
-    @include placeholder {
-        color: red;
-    }
-}*/
-
-.color_white {
-  color: #ffffff; }
-
-
 /*--------------------  Gradient  --------------------*/
 .bg_gradient_blue, header {
   background: #005DA9;
@@ -72,60 +61,34 @@ body {
   body a {
     color: #1308FE;
     text-decoration: none;
-    outline: 0;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    outline: 0; }
     body a:hover, body a:active, body a:focus {
       color: #271cff;
       outline: 0;
       text-decoration: none; }
 
-
 h1, h2, h3, h4, h5, h6, p {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   line-height: normal;
   color: #242424; }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 70px;
-  line-height: 75px;
-  text-transform: uppercase; }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 50px;
-  line-height: 56px;
-  padding-bottom: 30px;
+  letter-spacing: 0.3px;
+  color: #ffffff; 
   text-transform: uppercase; }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 20px; }
-
-h4 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 10px; }
-
-h5 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px; }
+  font-size: 18px; }
 
 p {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px; }
 
 @media screen and (max-width: 1199px) {
